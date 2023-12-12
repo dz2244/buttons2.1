@@ -17,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void btn(View view) {
         myNumber++;
+        btn = findViewById(R.id.btn);
     }
 }
