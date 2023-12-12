@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button btn;
-    int myNumber = 0;
+    int counter = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btn(View view) {
-        myNumber++;
+        counter++;
         btn = findViewById(R.id.btn);
-        btn.setText("This is a click number:" + myNumber);
+        btn.setText("This is a click number:" + counter);
     }
 }
